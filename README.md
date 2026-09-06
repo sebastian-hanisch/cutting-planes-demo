@@ -7,8 +7,9 @@ wie [branch-bound-demo](../branch-bound-demo) und
 - die LP-Relaxierung selbst wird iterativ verschärft (Schnittebenen/Cover-Cuts),
 statt einen Suchbaum zu verzweigen oder eine Tabelle zu füllen. Kein vollständiger
 Kontrast wie `dynamic-programming-demo`, sondern ein **Vorläufer**: dieses Stück
-bereitet ein künftiges `branch-cut-demo` vor, das Schnitte mit dem Verzweigen aus
-`branch-bound-demo` kombiniert.
+bereitet [branch-cut-demo](../branch-cut-demo) vor, das vierte Stück der Linie, das
+Schnitte mit dem Verzweigen aus `branch-bound-demo` zur ersten **Konvergenz** dieser
+Linie kombiniert – dieselbe Rolle wie HDBSCAN in der Clustering-Linie.
 
 ## Der Mechanismus
 
